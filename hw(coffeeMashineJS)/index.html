@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CoffeeMashine</title>
+    <link rel="stylesheet" href="css/style.css"/>
+  
+</head>
+
+<body>
+    <div 
+    class="logoZone"><img src="https://mir-s3-cdn-cf.behance.net/project_modules/2800_opt_1/50b3b674194385.5c2773efd5e19.png" height="100px"> выбери любимый кофе...
+    </div>
+
+    <div class="coffeeSelection">
+        <button class="btn" onclick="makeCoffee(150,50)">Americano</button>
+        <button class="btn" onclick="makeCoffee(150,70);">Espresso</button>
+        <button class="btn" onclick="makeCoffee(150,150);">Double Espresso</button>
+    </div>
+
+    <div class="parents">
+        <button class="btnWTank" onclick="fillTheWaterTank()">Заполнить бак с водой</button>
+        <div class="waterGraph"><div class="currentWaterGraph">Текущее количество воды, мл</div></div>
+        <div class="coffeeGraph"><div class="currentCoffeeGraph" >Текущее количество кофе,гр</div></div>
+        <button class="btnCTank" onclick="fillTheCoffeeTank()">Заполнить бак с кофе</button>
+    </div>
+
+</div>
+       
+ <script src="script.js"></script>  
+
+</body>
+
+</html>
